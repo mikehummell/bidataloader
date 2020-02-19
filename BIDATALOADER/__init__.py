@@ -1,0 +1,1 @@
+from bidataloader.pandas2sql import df2load
