@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'BIDATALOADER',         # How you named your package folder (MyLib)
   packages = ['BIDATALOADER'],   # Chose the same as "name"
-  version = '0.1',      # Start with a small number and increase it with every change you make
+  version = '0.1.1',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Library to upload SAP downloaded file into a DB',   # Give a short description about your library
   author = 'Michael Huwiler',                   # Type in your name
@@ -23,7 +23,7 @@ setup(
     'Topic :: Software Development :: Build Tools',
 
     'License :: OSI Approved :: MIT License',   # Again, pick a license
-    
+
     'Programming Language :: Python :: 3.5',    #Specify which pyhton versions that you want to support
     'Programming Language :: Python :: 3.7',
   ],
